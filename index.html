@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Chocolate Pack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Select Your Chocolates</h1>
+
+    <div class="chocolates">
+      <div class="chocolate">
+        <img src="https://images.pexels.com/photos/887850/pexels-photo-887850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chocolate 1">
+        <span class="name">Chocolate 1</span>
+        <span class="price">$2.00 each</span>
+        <button class="add-button" onclick="addChocolate(0)">Add</button>
+        <span class="quantity">0</span>
+      </div>
+      
+      <div class="chocolate">
+        <img src="https://images.pexels.com/photos/4791265/pexels-photo-4791265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chocolate 1">
+        <span class="name">Chocolate 2</span>
+        <span class="price">$1.00 each</span>
+        <button class="add-button" onclick="addChocolate(1)">Add</button>
+        <span class="quantity">0</span>
+      </div>
+      
+      <div class="chocolate">
+        <img src="https://images.pexels.com/photos/4198378/pexels-photo-4198378.jpeg" alt="Chocolate 1">
+        <span class="name">Chocolate 3</span>
+        <span class="price">$1.50 each</span>
+        <button class="add-button" onclick="addChocolate(2)">Add</button>
+        <span class="quantity">0</span>
+      </div>
+      
+      <div class="chocolate">
+        <img src="https://images.pexels.com/photos/6167330/pexels-photo-6167330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chocolate 1">
+        <span class="name">Chocolate 4</span>
+        <span class="price">$4.00 each</span>
+        <button class="add-button" onclick="addChocolate(3)">Add</button>
+        <span class="quantity">0</span>
+      </div>
+      
+      <div class="chocolate">
+        <img src="https://images.pexels.com/photos/5386665/pexels-photo-5386665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chocolate 1">
+        <span class="name">Chocolate 5</span>
+        <span class="price">$3.00 each</span>
+        <button class="add-button" onclick="addChocolate(4)">Add</button>
+        <span class="quantity">0</span>
+      </div>
+
+      <!-- Add more chocolates similarly -->
+
+    </div>
+
+    <div class="total-price">
+      <label>Total Price:</label>
+      <span id="total-price">$0.00</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
